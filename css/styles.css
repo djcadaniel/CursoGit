@@ -13,16 +13,30 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
     height: 100vh;
+    padding: 5%;
+    text-align: center;
     background-color: green;
     justify-content: center;
     align-items: center;
 }
 
+.cabecera {
+    padding: 1% 0;
+    width: 100%;
+    background: rgb(15, 187, 136);
+    background: linear-gradient(90deg, rgba(15, 187, 136, 1) 0%, rgba(6, 154, 103, 1) 39%, rgba(67, 230, 88, 1) 98%);
+}
+
 .post {
+    width: 100%;
     border: 1px solid gray;
     text-align: center;
     padding: 3% 0;
+    box-shadow: 10px 9px 20px -3px rgba(79, 240, 119, 1);
 }
 
 .post img {
