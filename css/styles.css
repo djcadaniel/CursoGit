@@ -6,7 +6,7 @@
 
 body {
     font-family: Courier;
-    color: blue;
+    color: white;
 }
 
 .container {
@@ -39,6 +39,6 @@ body {
 }
 
 .post img {
-    max-width: 50%;
+    max-width: 40%;
     border-radius: 15px;
 }
